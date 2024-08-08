@@ -41,8 +41,8 @@ const PhotoGrid = () => {
 const styles = {
   grid: {
     display: 'grid',
-    gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))',
-    gap: '16px',
+    gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))',
+    gap: '20px',
   },
   card: {
     position: 'relative',
@@ -50,7 +50,7 @@ const styles = {
   image: {
     width: '100%',
     height: 'auto',
-    borderRadius: '8px',
+    borderRadius: '15px',
   },
   details: {
     position: 'absolute',
@@ -59,7 +59,7 @@ const styles = {
     color: '#fff',
     backgroundColor: 'rgba(0, 0, 0, 0.6)',
     padding: '4px 8px',
-    borderRadius: '4px',
+    borderRadius: '15px',
   },
 };
 

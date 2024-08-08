@@ -9,7 +9,7 @@ const unsplashService = axios.create({
   },
 });
 
-export const fetchPhotos = async (query = 'nature', perPage = 12) => {
+export const fetchPhotos = async (query = 'wallpaper', perPage = 20) => {
   const response = await unsplashService.get('/search/photos', {
     params: { query, per_page: perPage },
   });
